@@ -15,6 +15,8 @@ class CreateEquipmentOutsTable extends Migration
     {
         Schema::create('equipment_outs', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('bay_type_id');
+            $table->string('name');
             $table->timestamps();
         });
     }

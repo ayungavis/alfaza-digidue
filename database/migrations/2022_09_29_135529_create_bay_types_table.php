@@ -15,6 +15,8 @@ class CreateBayTypesTable extends Migration
     {
         Schema::create('bay_types', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('location_id');
+            $table->string('name');
             $table->timestamps();
         });
     }

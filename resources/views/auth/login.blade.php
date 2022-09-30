@@ -23,16 +23,6 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="seller_id">Nama Departemen</label>
-                                <select class="form-control select2" id="department_id" name="department_id">
-                                    <option disabled selected>Pilih Departemen</option>
-                                    @foreach($departments as $key => $department)
-                                        <option value="{{ $department->id }}">{{$department->name}}</option>
-                                    @endforeach 
-                                </select>
-                              </div>
-
-                            <div class="form-group">
                                 <div class="d-block">
                                     <label for="password" class="control-label">Password</label>
                                 </div>
@@ -48,7 +38,7 @@
                                     Login
                                 </button>
                                 <div class="text-center mt-4 mb-3">
-                                    <div class="text-job text-muted">Managed by Factory Manager</div>
+                                    <div class="text-job text-muted">Managed by PIC UPT</div>
                                 </div>
                             </div>
                         </form>

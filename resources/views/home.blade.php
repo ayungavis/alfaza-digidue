@@ -1,6 +1,6 @@
 @extends('layouts.app', ['title' => $title])
 @section('title', 'Home')
-@section('action')
+{{-- @section('action')
 <div class="card-header-action dropdown" style="float:right">
   <div class="btn-group">
     <button type="button" class="btn btn-danger change">Bulan ini</button>
@@ -15,7 +15,7 @@
       </ul>
   </div>
 </div>
-@endsection
+@endsection --}}
 @section('content')
 
 <div class="card">

@@ -12,14 +12,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(MinyakSeeder::class);
-        $this->call(BumbuSeeder::class);
-        $this->call(BulkExportSeeder::class);
-        $this->call(SayurSeeder::class);
-        $this->call(BumbuExportSeeder::class);
-        $this->call(MonthSeeder::class);
-        $this->call(DepartmentSeeder::class);
+        $this->call(AttributeSeeder::class);
+        $this->call(BayTypeSeeder::class);
+        $this->call(EquipmentOutSeeder::class);
+        $this->call(LocationSeeder::class);
+        $this->call(PersonResponsiblesSeeder::class);
         $this->call(UsersSeeder::class);
-        $this->call(GroupsSeeder::class);
+      
     }
 }

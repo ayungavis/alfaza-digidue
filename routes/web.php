@@ -28,3 +28,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/password', 'FileController@changePasswordView')->name('password.change.view');
 Route::post('/password/change', 'FileController@changePassword')->name('password.change');
 
+Route::prefix('schedule')->group(function () {
+    Route::name('schedule.')->group(function () {
+        Route::get('index', 'ScheduleController@dataSchedule')->name('show');
+        Route::get('show/add/schedule', 'ScheduleController@showAddSchedule')->name('show.add.schedule');
+        Route::post('add', 'ScheduleController@addSchedule')->name('add');
+        Route::get('show/baytype/{id}', 'ScheduleController@showAddBayType')->name('show.baytype');
+        Route::get('show/equipmentout/{id}', 'ScheduleController@showAddEquipmentOut')->name('show.equipmentout');
+    });
+});

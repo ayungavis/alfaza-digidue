@@ -48,4 +48,25 @@ class ScheduleController extends Controller
         return view('admin.schedule.index')->with('title', 'Jadwal');
 
     }
+
+    public function showAddSchedule(){
+        $locations=Location::all();
+        $months=Month::all();
+
+        return view('admin.schedule.addscehdule')->with('title', 'Tambah Jadwal')->with('locations', $locations)->with('months', $months);
+    }
+
+    public function showAddBayType($id){
+        $bay_type= BayType::where("location_id","=", $id);
+
+        return json_encode($bay_type);
+    }
+
+    public function showAddEquipmentOut($id){
+        $equipment_out= EquipmentOut::where("bay_type_id","=", $id);
+
+        return json_encode($equipment_out);
+    }
+
+    
 }

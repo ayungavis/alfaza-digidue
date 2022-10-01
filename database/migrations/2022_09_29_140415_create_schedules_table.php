@@ -22,8 +22,8 @@ class CreateSchedulesTable extends Migration
             $table->string('voltage');
             $table->bigInteger('bay_type_id');
             $table->bigInteger('equipment_out_id');
-            $table->bigInteger('attribute_id')->nullable();
-            $table->bigInteger('person_responsibles_id')->nullable();
+            $table->string('attribute')->nullable();
+            $table->string('person_responsibles')->nullable();
             $table->dateTime('start_date');
             $table->dateTime('end_date');
             $table->time('start_hours');

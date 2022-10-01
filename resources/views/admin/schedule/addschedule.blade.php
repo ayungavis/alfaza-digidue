@@ -96,22 +96,22 @@
 
             <div class="form-group">
                 <label for="start_date">Tanggal Mulai</label>
-               <input type="text" class="form-control datepciker" name="start_date">
+               <input type="text" class="form-control datepicker" name="start_date">
             </div>
 
             <div class="form-group">
                 <label for="end_date">Tanggal Selesai</label>
-               <input type="text" class="form-control datepciker" name="end_date">
+               <input type="text" class="form-control datepicker" name="end_date">
             </div>
 
             <div class="form-group">
                 <label for="end_date">Pukul Mulai</label>
-               <input type="text" class="form-control timepciker" name="end_date">
+               <input type="text" class="form-control timepicker" name="end_date">
             </div>
 
             <div class="form-group">
                 <label for="end_date">Pukul Selesai</label>
-               <input type="text" class="form-control timepciker" name="end_date">
+               <input type="text" class="form-control timepicker" name="end_date">
             </div>
 
             <div class="form-group">

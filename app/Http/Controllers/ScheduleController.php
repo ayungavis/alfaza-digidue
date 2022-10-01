@@ -8,7 +8,6 @@ use App\Models\EquipmentOut;
 use App\Models\Location;
 use App\Models\Month;
 use App\Models\Schedule;
-use Attribute;
 use Illuminate\Http\Request;
 use DataTables;
 use Exception;
@@ -53,7 +52,7 @@ class ScheduleController extends Controller
         $locations=Location::all();
         $months=Month::all();
 
-        return view('admin.schedule.addscehdule')->with('title', 'Tambah Jadwal')->with('locations', $locations)->with('months', $months);
+        return view('admin.schedule.addschedule')->with('title', 'Tambah Jadwal')->with('locations', $locations)->with('months', $months);
     }
 
     public function showAddBayType($id){
@@ -68,5 +67,5 @@ class ScheduleController extends Controller
         return json_encode($equipment_out);
     }
 
-    
+
 }

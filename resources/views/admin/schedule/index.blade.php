@@ -6,9 +6,9 @@
     <div class="card-header">
         <h4>Daftar File</h4>
         <div class="card-header-action">
-            {{-- <a href="{{ route('schedule.show.add.schedule') }}" class="btn btn-icon icon-left btn-info"><i class="fas fa-plus"
+            <a href="{{ route('schedule.show.add.schedule') }}" class="btn btn-icon icon-left btn-info"><i class="fas fa-plus"
                     type="button"></i>Tambah Jadwal
-            </a> --}}
+            </a>
         </div>
     </div>
     <div class="card-body">

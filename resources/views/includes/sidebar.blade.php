@@ -11,23 +11,14 @@
 					<i class="fas fa-home"></i><span>Home</span>
 				</a>
 			</li>
-		@if (auth()->user()->department_id == 1 || auth()->user()->department_id == 2)
-			<li class="@if ($title == 'Departemen') active @endif">
-				<a class="nav-link" href="{{ route('departments.show') }}">
-					<i class="fas fa-building"></i><span>Departemen</span>
+		@if (auth()->user()->role_id == 1 || auth()->user()->role_id == 2)
+			<li class="@if ($title == 'Jadwal') active @endif">
+				<a class="nav-link" href="{{ route('schedule.show') }}">
+					<i class="fas fa-building"></i><span>Jadwal</span>
 				</a>
-			</li>
-			<li class="@if ($title == 'Sales') active @endif">
-				<a class="nav-link" href="{{ route('sales.show') }}">
-					<i class="fas fa-building"></i><span>Sales</span>
-				</a>
-			</li>
+			</li>	
 			@endif
-			<li class="@if ($title == 'File') active @endif">
-				<a class="nav-link" href="{{ route('files.show') }}">
-					<i class="fas fa-file"></i><span>File</span>
-				</a>
-			</li>
+			
 		</ul>
 	
 	</aside>

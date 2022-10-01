@@ -48,7 +48,7 @@
             {data: 'voltage', name: 'voltage', title: 'Tegangan'},
             {data: 'equipment_out.name', name: 'equipment_out.name', title: 'Peralatan Padam'},
             {data: 'attribute', name: 'attribute', title: 'Sifat'},
-            {data: 'person_responsible', name: 'person_responsible', title: 'Penanggung Jawab Pelaksanaan'},
+            {data: 'person_responsibles', name: 'person_responsibles', title: 'Penanggung Jawab Pelaksanaan'},
             {data: 'start_date', name: 'start_date', title: 'Awal'},
             {data: 'end_date', name: 'end_date', title: 'Akhir'},
             {data: 'start_hours', name: 'start_hours', title: 'Jam Awal'},

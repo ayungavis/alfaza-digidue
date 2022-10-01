@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Sales')
+@section('title', 'Jadwal')
 @section('content')
 
 <div class="card">
@@ -28,7 +28,7 @@
             <div class="form-group">
                 <label for="location_id">Lokasi</label>
                 <select class="form-control select2" id="location_id" name="location_id">
-                    <option disabled selected>Pilih Bulan</option>
+                    <option disabled selected>Pilih Lokasi</option>
                     @foreach($locations as $key => $location)
                     <option value="{{ $location->id }}">{{$location->name}}</option>
                     @endforeach
@@ -75,15 +75,12 @@
                     <option disabled selected>Pilih Sifat</option>
                     <option value="03">03</option>
                     <option value="05">05</option>
-         
-
-
                 </select>
             </div>
 
             <div class="form-group">
                 <label for="person_responsible">Penanggung Jawab Pelaksanaan</label>
-                <select class="form-control select2" id="person_responsible" name="person_responsible">
+                <select class="form-control select2" id="person_responsibles" name="person_responsibles">
                     <option disabled selected>Pilih Penanggung Jawab</option>
                     <option value="M.UPT">M.UPT</option>
                     <option value="M.UP2B/UIP2B">M.UP2B/UIP2B</option>
@@ -91,6 +88,17 @@
                     <option value="PLN Proyek">PLN Proyek</option>
                     <option value="Pihak Luar">Pihak Luar</option>
 
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label for="operation_plan">Rencana Operasi </label>
+                <select class="form-control select2" id="operation_plan" name="operation_plan">
+                    <option disabled selected>Pilih Rencana Operasi </option>
+                    <option value="ROB">ROB</option>
+                    <option value="ROM">ROM</option>
+                    <option value="ROH">ROH</option>
                 </select>
             </div>
 
@@ -106,12 +114,12 @@
 
             <div class="form-group">
                 <label for="end_date">Pukul Mulai</label>
-               <input type="text" class="form-control timepicker" name="end_date">
+               <input type="text" class="form-control timepicker" name="start_hours">
             </div>
 
             <div class="form-group">
                 <label for="end_date">Pukul Selesai</label>
-               <input type="text" class="form-control timepicker" name="end_date">
+               <input type="text" class="form-control timepicker" name="end_hours">
             </div>
 
             <div class="form-group">
@@ -184,7 +192,7 @@
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
   });
-  $('#sales-add').submit(function(e) {
+  $('#schedule-add').submit(function(e) {
     e.preventDefault();
     $("#save-data").addClass("btn disabled btn-success btn-progress");
     
@@ -205,7 +213,7 @@
         if(response.status == 200 || response.status == 201){
           swal("Success", "Data Anda Telah Disimpan!", "success");
           $("#save-data").removeClass("disabled btn-progress");
-          $('#sales-add')[0].reset();
+          $('#schedue-add')[0].reset();
           $(".select2").val("");
           $(".select2").trigger("change");
         } else {

@@ -24,12 +24,13 @@ class CreateSchedulesTable extends Migration
             $table->bigInteger('equipment_out_id');
             $table->string('attribute')->nullable();
             $table->string('person_responsibles')->nullable();
-            $table->dateTime('start_date');
-            $table->dateTime('end_date');
-            $table->time('start_hours');
-            $table->time('end_hours');
+            $table->date('start_date');
+            $table->date('end_date');
+            $table->string('start_hours');
+            $table->string('end_hours');
             $table->text('note');
             $table->string('notif');
+            $table->string('operation_plan');
             $table->integer('approve_id');
             $table->timestamps();
         });

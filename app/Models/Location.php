@@ -7,4 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Location extends Model
 {
     protected $table ='locations';
+
+    public function baytype()
+    {
+        return $this->hasOne('App\Models\BayType', 'location_id');
+    }
 }

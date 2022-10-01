@@ -52,6 +52,99 @@ class ScheduleController extends Controller
 
     }
 
+    public function dataScheduleROB(){
+        $schedule = Schedule::with('bay_type','equipment_out','location','month')->where('operation_plan', '=', 'ROB');
+        if (request()->ajax()) {
+            return Datatables::of($schedule)
+            ->addIndexColumn()
+            ->addColumn('approve', function ($schedule) {
+                if ($schedule->approve_id == 1) {
+                    $btn = '<a class="btn btn-sm btn-danger" >Disetujui</a>';;
+                }else if($schedule->approve_id == 4){
+                    $btn = '<a> - </a>';;
+                    
+                }
+                else if($schedule->approve_id == 3){
+                    $btn = '<button id="changestatus" class="btn btn-sm btn-danger" data-id="1">Setujui</button>';;
+                    $btn .= '<button id="changestatus" class="btn btn-sm btn-danger" data-id="2">Tolak</button>';;
+                } else {
+                    $btn = '<a class="btn btn-sm btn-danger" >Ditolak</a>';;
+                }
+                return $btn;
+            })
+            ->addColumn('action', function ($schedule) {
+                $button = '<button id="delete" class="btn  btn-danger" data-id="' . $schedule->id . '">Delete</button>';
+                return $button;
+            })
+            ->rawColumns(['approve','action'])
+            ->make(true);
+        }
+        return view('admin.schedule.indexROB')->with('title', 'Jadwal');
+
+    }
+
+    public function dataScheduleROM(){
+        $schedule = Schedule::with('bay_type','equipment_out','location','month')->where('operation_plan', '=', 'ROM');
+        if (request()->ajax()) {
+            return Datatables::of($schedule)
+            ->addIndexColumn()
+            ->addColumn('approve', function ($schedule) {
+                if ($schedule->approve_id == 1) {
+                    $btn = '<a class="btn btn-sm btn-danger" >Disetujui</a>';;
+                }else if($schedule->approve_id == 4){
+                    $btn = '<a> - </a>';;
+                    
+                }
+                else if($schedule->approve_id == 3){
+                    $btn = '<button id="changestatus" class="btn btn-sm btn-danger" data-id="1">Setujui</button>';;
+                    $btn .= '<button id="changestatus" class="btn btn-sm btn-danger" data-id="2">Tolak</button>';;
+                } else {
+                    $btn = '<a class="btn btn-sm btn-danger" >Ditolak</a>';;
+                }
+                return $btn;
+            })
+            ->addColumn('action', function ($schedule) {
+                $button = '<button id="delete" class="btn  btn-danger" data-id="' . $schedule->id . '">Delete</button>';
+                return $button;
+            })
+            ->rawColumns(['approve','action'])
+            ->make(true);
+        }
+        return view('admin.schedule.indexROM')->with('title', 'Jadwal');
+
+    }
+
+    public function dataScheduleROH(){
+        $schedule = Schedule::with('bay_type','equipment_out','location','month')->where('operation_plan', '=', 'ROH');
+        if (request()->ajax()) {
+            return Datatables::of($schedule)
+            ->addIndexColumn()
+            ->addColumn('approve', function ($schedule) {
+                if ($schedule->approve_id == 1) {
+                    $btn = '<a class="btn btn-sm btn-danger" >Disetujui</a>';;
+                }else if($schedule->approve_id == 4){
+                    $btn = '<a> - </a>';;
+                    
+                }
+                else if($schedule->approve_id == 3){
+                    $btn = '<button id="changestatus" class="btn btn-sm btn-danger" data-id="1">Setujui</button>';;
+                    $btn .= '<button id="changestatus" class="btn btn-sm btn-danger" data-id="2">Tolak</button>';;
+                } else {
+                    $btn = '<a class="btn btn-sm btn-danger" >Ditolak</a>';;
+                }
+                return $btn;
+            })
+            ->addColumn('action', function ($schedule) {
+                $button = '<button id="delete" class="btn  btn-danger" data-id="' . $schedule->id . '">Delete</button>';
+                return $button;
+            })
+            ->rawColumns(['approve','action'])
+            ->make(true);
+        }
+        return view('admin.schedule.indexROH')->with('title', 'Jadwal');
+
+    }
+
     public function showAddSchedule(){
         $locations=Location::all();
         $months=Month::all();

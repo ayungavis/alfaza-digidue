@@ -15,7 +15,6 @@ class CreatePersonResponsiblesTable extends Migration
     {
         Schema::create('person_responsibles', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('attribute_id');
             $table->string('name');
             $table->timestamps();
         });

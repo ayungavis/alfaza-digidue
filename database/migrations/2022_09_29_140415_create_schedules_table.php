@@ -15,7 +15,8 @@ class CreateSchedulesTable extends Migration
     {
         Schema::create('schedules', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('no');
+            $table->bigInteger('month_id');
+            $table->string('year');
             $table->bigInteger('location_id');
             $table->text('desc_job')->nullable();
             $table->string('voltage');

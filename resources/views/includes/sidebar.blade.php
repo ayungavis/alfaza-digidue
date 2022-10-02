@@ -26,6 +26,13 @@
 					</li>
 				</ul>
 				<ul class="dropdown-menu">
+					<li class="@if ($title == 'Jadwal Revisi') active @endif">
+						<a class="nav-link" href="{{ route('schedule.show.revision') }}">
+							<i class="fas fa-calendar"></i><span>Pengajuan Jadwal</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="dropdown-menu">
 					<li class="@if ($title == 'Jadwal ROB') active @endif">
 						<a class="nav-link" href="{{ route('schedule.show.ROB') }}">
 							<i class="fas fa-calendar"></i><span>Jadwal ROB</span>

@@ -8,8 +8,9 @@
     </div>
     <div class="card-body">
         <form id="schedule-add">
-
+            
             <div class="form-group">
+                <input type="hidden" name="user_id" id="user_id" value="{{auth()->user()->id}}">
                 <label for="month_id">Bulan</label>
                 <select class="form-control select2" id="month_id" name="month_id">
                     <option disabled selected>Pilih Bulan</option>

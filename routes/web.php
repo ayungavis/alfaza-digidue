@@ -31,6 +31,7 @@ Route::post('/password/change', 'FileController@changePassword')->name('password
 Route::prefix('schedule')->group(function () {
     Route::name('schedule.')->group(function () {
         Route::get('index', 'ScheduleController@dataSchedule')->name('show');
+        Route::get('index/revision', 'ScheduleController@dataRevisionSchedule')->name('show.revision');
         Route::get('index/ROB', 'ScheduleController@dataScheduleROB')->name('show.ROB');
         Route::get('index/ROM', 'ScheduleController@dataScheduleROM')->name('show.ROM');
         Route::get('index/ROH', 'ScheduleController@dataScheduleROH')->name('show.ROH');

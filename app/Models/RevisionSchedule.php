@@ -4,11 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Schedule extends Model
+class RevisionSchedule extends Model
 {
-    protected $table ='schedules';
+    protected $table ='revision_schedules';
 
-    protected $fillable =[
+    protected $fillable=[
+        'schedule_id',
         'user_id',
         'role_id',
         'month_id',
@@ -49,7 +50,4 @@ class Schedule extends Model
     {
         return $this->belongsTo('App\Models\EquipmentOut', 'equipment_out_id');
     }
-
-
-  
 }

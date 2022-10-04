@@ -35,7 +35,9 @@ Route::prefix('schedule')->group(function () {
         Route::get('index/ROB', 'ScheduleController@dataScheduleROB')->name('show.ROB');
         Route::get('index/ROM', 'ScheduleController@dataScheduleROM')->name('show.ROM');
         Route::get('index/ROH', 'ScheduleController@dataScheduleROH')->name('show.ROH');
+        Route::get('index/ultg', 'ScheduleController@dataScheduleULTG')->name('show.ultg');
         Route::get('show/add/schedule', 'ScheduleController@showAddSchedule')->name('show.add.schedule');
+        Route::get('show/update/revision/{id}', 'ScheduleController@showUpdateSumbittedSchedule')->name('show.update.revision');
         Route::post('add', 'ScheduleController@addSchedule')->name('add');
         Route::get('show/baytype/{id}', 'ScheduleController@showAddBayType')->name('show.baytype');
         Route::get('show/equipmentout/{id}', 'ScheduleController@showAddEquipmentOut')->name('show.equipmentout');

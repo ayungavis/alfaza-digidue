@@ -78,6 +78,80 @@ class ScheduleController extends Controller
         return view('admin.schedule.indexRevision')->with('title', 'Jadwal Pengajuan');
     }
 
+    public function dataScheduleULTG()
+    {
+        $schedule = Schedule::with('bay_type', 'equipment_out', 'location', 'month');
+
+        if (request()->ajax()) {
+            return Datatables::of($schedule)
+                ->addIndexColumn()
+                ->addColumn('approve', function ($schedule) {
+                    if ($schedule->approve_id == 1) {
+                        $btn = '<a class="btn btn-sm btn-danger" >Disetujui</a>';
+                    } else if($schedule->approve_id == 2) {
+                        $btn = '<a class="btn btn-sm btn-danger" >Ditolak</a>';
+                    }else if($schedule->approve_id ==3) {
+                        $btn = '<a class="btn btn-sm btn-danger" >Proses Pengajuan</a>';
+                    }else{
+                        $btn = '<a class="btn btn-sm btn-danger" > - </a>';
+                    }
+                    return $btn;
+                })
+                ->addColumn('action', function ($schedule) {
+                    $button = '<a href="' . route('schedule.show.update.revision', $schedule->id) . '" class="btn btn-sm btn-success">Ajukan Revisi</a>';
+                    return $button;
+                })
+                ->rawColumns(['approve', 'action'])
+                ->make(true);
+        }
+        return view('admin.schedule.indexULTG')->with('title', 'Jadwal ULTG');
+    }
+
+    public function showUpdateSumbittedSchedule($id){
+        $schedule = Schedule::with('bay_type', 'equipment_out', 'location', 'month')->firstwhere('id', $id);
+
+        return view('admin.schedule.submittedULTG')->with('schedules', $schedule);
+    }
+
+    public function updateSubmittedSchedule(Request $request, $id){
+        try{
+            $schedule= Schedule::firstwhere('id', $id);
+
+            $revision = new RevisionSchedule ();
+            $revision->schedule_id = $schedule['id'];
+            $revision->month_id = $schedule['month_id'];
+            $revision->user_id = $schedule['user_id'];
+            $revision->role_id = 3;
+            $revision->year = $schedule['year'];
+            $revision->location_id = $schedule['location_id'];
+            $revision->desc_job = $schedule['desc_job'];
+            $revision->voltage = $schedule['voltage'];
+            $revision->bay_type_id = $schedule['bay_type_id'];
+            $revision->equipment_out_id = $schedule['equipment_out_id'];
+            $revision->attribute = $schedule['attribute'];
+            $revision->person_responsibles = $schedule['person_responsibles'];
+            $revision->start_date = $request['start_date'];
+            $revision->end_date = $request['end_date'];
+            $revision->start_hours = $request['start_hours'];
+            $revision->end_hours = $request['end_hours'];
+            $revision->note = $schedule['note'];
+            $revision->approve_id = 3;
+            $revision->notif = $schedule['notif'];
+            $revision->operation_plan = $schedule['operation_plan'];
+            $revision->save();
+
+            return response()->json([
+                'status' => 200,
+                'message' => 'success add data'
+            ]);
+      }catch(Exception $err){
+            return response()->json([
+                'status'=> 500,
+                'error' => $err->getMessage()
+            ]);
+        }
+    }
+
 
 
     public function dataScheduleROB()

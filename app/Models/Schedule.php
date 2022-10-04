@@ -15,6 +15,7 @@ class Schedule extends Model
         'year',
         'location_id',
         'desc_job',
+        'submitted',
         'voltage',
         'bay_type_id',
         'equipment_out_id',

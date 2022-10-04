@@ -13,7 +13,7 @@
 			</li>
 		
 			
-		
+			@if (in_array(auth()->user()->role_id, ['1','2']))
 			<li class="dropdown @if (strpos($title, 'Jadwal')) active @endif">
 				<a href="#" class="nav-link has-dropdown">
 					<i class="fas fa-book"></i><span>Jadwal</span>
@@ -54,7 +54,12 @@
 					</li>
 				</ul>
 			</li>
-
+			@endif
+			<li class="@if ($title == 'Jadwal ULTG') active @endif">
+				<a class="nav-link" href="{{  route('schedule.show.ultg')  }}">
+					<i class="fas fa-calendar"></i><span>Jadwal</span>
+				</a>
+			</li>
 		</ul>
 
 	</aside>

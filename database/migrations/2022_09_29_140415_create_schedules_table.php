@@ -21,6 +21,7 @@ class CreateSchedulesTable extends Migration
             $table->string('year');
             $table->bigInteger('location_id');
             $table->text('desc_job')->nullable();
+            $table->integer('submitted')->nullable();
             $table->string('voltage');
             $table->bigInteger('bay_type_id');
             $table->bigInteger('equipment_out_id');

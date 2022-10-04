@@ -6,7 +6,7 @@
 
 		<ul class="sidebar-menu">
 			<li class="menu-header">Dashboard</li>
-			<li class="@if ($title == 'Home Dashboard') active @endif">
+			<li class="">
 				<a class="nav-link" href="{{ route('home') }}">
 					<i class="fas fa-home"></i><span>Home</span>
 				</a>
@@ -14,40 +14,40 @@
 		
 			
 			@if (in_array(auth()->user()->role_id, ['1','2']))
-			<li class="dropdown @if (strpos($title, 'Jadwal')) active @endif">
+			<li class="">
 				<a href="#" class="nav-link has-dropdown">
 					<i class="fas fa-book"></i><span>Jadwal</span>
 				</a>
 				<ul class="dropdown-menu">
-					<li class="@if ($title == 'Jadwal') active @endif">
+					<li class="">
 						<a class="nav-link" href="{{ route('schedule.show') }}">
 							<i class="fas fa-calendar"></i><span>Jadwal</span>
 						</a>
 					</li>
 				</ul>
 				<ul class="dropdown-menu">
-					<li class="@if ($title == 'Jadwal Revisi') active @endif">
+					<li class="">
 						<a class="nav-link" href="{{ route('schedule.show.revision') }}">
 							<i class="fas fa-calendar"></i><span>Pengajuan Jadwal</span>
 						</a>
 					</li>
 				</ul>
 				<ul class="dropdown-menu">
-					<li class="@if ($title == 'Jadwal ROB') active @endif">
+					<li class="">
 						<a class="nav-link" href="{{ route('schedule.show.ROB') }}">
 							<i class="fas fa-calendar"></i><span>Jadwal ROB</span>
 						</a>
 					</li>
 				</ul>
 				<ul class="dropdown-menu">
-					<li class="@if ($title == 'Jadwal ROM') active @endif">
+					<li class="">
 						<a class="nav-link" href="{{ route('schedule.show.ROM') }}">
 							<i class="fas fa-calendar"></i><span>Jadwal ROM</span>
 						</a>
 					</li>
 				</ul>
 				<ul class="dropdown-menu">
-					<li class="@if ($title == 'Jadwal ROH') active @endif">
+					<li class="">
 						<a class="nav-link" href="{{ route('schedule.show.ROH') }}">
 							<i class="fas fa-calendar"></i><span>Jadwal ROH</span>
 						</a>
@@ -55,7 +55,7 @@
 				</ul>
 			</li>
 			@endif
-			<li class="@if ($title == 'Jadwal ULTG') active @endif">
+			<li class="">
 				<a class="nav-link" href="{{  route('schedule.show.ultg')  }}">
 					<i class="fas fa-calendar"></i><span>Jadwal</span>
 				</a>

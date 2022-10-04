@@ -23,7 +23,8 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="year">Tahun</label>
-                        <input type="number" class="form-control" id="year" name="year" placeholder="Tahun">
+                        <input type="text" class="form-control" id="year" name="year"
+          value="{{$schedule->year}}" readonly>
                     </div>
                 </div>
             </div>
@@ -32,11 +33,8 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="location_id">Lokasi</label>
-                        <select class="form-control select2" id="location_id" name="location_id">
-                            <option disabled selected>Pilih Lokasi</option>
-                            @foreach($locations as $key => $location)
+                        <select class="form-control select2" id="location_id" name="location_id"disabled>
                             <option value="{{ $location->id }}">{{$location->name}}</option>
-                            @endforeach
                         </select>
                     </div>
                 </div>
@@ -44,7 +42,7 @@
                     <div class="form-group">
                         <label>Jenis Bay</label>
                         <select class="form-control select2" name="bay_type_id" id="bay_type_id" disabled>
-                            <option value="" disabled selected>Pilih Jenis Bay</option>
+                            <option value="{{ $bay_type->id }}">{{$bay_type->name}}</option>
                         </select>
                     </div>
                 </div>
@@ -53,7 +51,7 @@
                     <div class="form-group">
                         <label>Peralatan Padam</label>
                         <select class="form-control select2" name="equipment_out_id" id="equipment_out_id" disabled>
-                            <option value="" disabled selected>Pilih Peralatan Padam</option>
+                            <option value="{{ $equipment_out->id }}">{{$equipment_out->name}}</option>
                         </select>
                     </div>
                 </div>
@@ -61,11 +59,7 @@
                     <div class="form-group">
                         <label for="seller_id">Tegangan</label>
                         <select class="form-control select2" id="voltage" name="voltage">
-                            <option disabled selected>Pilih Tegangan</option>
-                            <option value="500kV">500kV</option>
-                            <option value="150kV">150kV</option>
-                            <option value="70kV">70kV</option>
-                            <option value="20kV">20kV</option>
+                            <option value="{{ $schedule->voltage }}">{{$schedule->voltage}}</option>
 
 
                         </select>
@@ -80,7 +74,8 @@
 
             <div class="form-group">
                 <label for="desc">Uraian Pekerjaan</label>
-                <input type="text" class="form-control" id="desc_job" name="desc_job" placeholder="Uraian Pekerjaan">
+                <input type="text" class="form-control" id="desc_job" name="desc_job"
+                value="{{$schedule->desc_job}}" readonly>
             </div>
 
             <div class="row">
@@ -88,9 +83,7 @@
                     <div class="form-group">
                         <label for="seller_id">Sifat</label>
                         <select class="form-control select2" id="attribute" name="attribute">
-                            <option disabled selected>Pilih Sifat</option>
-                            <option value="03">03</option>
-                            <option value="05">05</option>
+                            <option value="{{ $schedule->attribute }}">{{$schedule->attribute}}</option>
                         </select>
                     </div>
                 </div>
@@ -98,12 +91,7 @@
                     <div class="form-group">
                         <label for="person_responsible">Penanggung Jawab Pelaksanaan</label>
                         <select class="form-control select2" id="person_responsibles" name="person_responsibles">
-                            <option disabled selected>Pilih Penanggung Jawab</option>
-                            <option value="M.UPT">M.UPT</option>
-                            <option value="M.UP2B/UIP2B">M.UP2B/UIP2B</option>
-                            <option value="M. UP2D">M. UP2D</option>
-                            <option value="PLN Proyek">PLN Proyek</option>
-                            <option value="Pihak Luar">Pihak Luar</option>
+                            <option value="{{ $schedule->person_responsibles }}">{{$schedule->person_responsibles}}</option>
 
                         </select>
                     </div>
@@ -112,10 +100,7 @@
                     <div class="form-group">
                         <label for="operation_plan">Rencana Operasi </label>
                         <select class="form-control select2" id="operation_plan" name="operation_plan">
-                            <option disabled selected>Pilih Rencana Operasi </option>
-                            <option value="ROB">ROB</option>
-                            <option value="ROM">ROM</option>
-                            <option value="ROH">ROH</option>
+                            <option value="{{ $schedule->operation_plan }}">{{$schedule->operation_plan}}</option>
                         </select>
                     </div>
                 </div>
@@ -152,12 +137,14 @@
 
             <div class="form-group">
                 <label for="note">Keterangan</label>
-                <input type="text" class="form-control" id="note" name="note" placeholder="Keterangan">
+                <input type="text" class="form-control" id="note" name="note"
+          value="{{$schedule->note}}" readonly>
             </div>
 
             <div class="form-group">
                 <label for="notif">Notif/WO</label>
-                <input type="number" class="form-control" id="notif" name="notif" placeholder="Notif">
+                <input type="number" class="form-control" id="notif" name="notif"
+          value="{{$schedule->notif}}" readonly>
             </div>
 
 

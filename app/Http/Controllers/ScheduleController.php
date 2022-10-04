@@ -110,8 +110,12 @@ class ScheduleController extends Controller
     public function showUpdateSumbittedSchedule($id){
         $schedule = Schedule::firstwhere('id', $id);
         $month= Month::firstwhere('id', $schedule->month_id);
+        $location = Location::firstwhere('id', $schedule->location_id);
+        $bay_type = BayType::firstwhere('id', $schedule->bay_type_id);
+        $equipment_out= EquipmentOut::firstwhere('id', $schedule->equipment_out_id);
 
-        return view('admin.schedule.submittedSchedule')->with('schedules', $schedule)->with('month', $month);
+        return view('admin.schedule.submittedSchedule')->with('schedule', $schedule)->with('month', $month)->with('location', $location)
+        ->with('bay_type', $bay_type)->with('equipment_out', $equipment_out);
     }
 
     public function updateSubmittedSchedule(Request $request, $id){
@@ -140,6 +144,9 @@ class ScheduleController extends Controller
             $revision->notif = $schedule['notif'];
             $revision->operation_plan = $schedule['operation_plan'];
             $revision->save();
+
+            $schedule->submitted = 1;
+            $schedule->save();
 
             return response()->json([
                 'status' => 200,

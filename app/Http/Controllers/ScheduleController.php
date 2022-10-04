@@ -87,13 +87,13 @@ class ScheduleController extends Controller
                 ->addIndexColumn()
                 ->addColumn('approve', function ($schedule) {
                     if ($schedule->approve_id == 1) {
-                        $btn = '<a class="btn btn-sm btn-danger" >Disetujui</a>';
+                        $btn = '<a class="btn btn-sm btn-success" >Pengajuan Disetujui</a>';
                     } else if($schedule->approve_id == 2) {
-                        $btn = '<a class="btn btn-sm btn-danger" >Ditolak</a>';
+                        $btn = '<a class="btn btn-sm btn-danger" >Pengajuan Ditolak</a>';
                     }else if($schedule->approve_id ==3) {
-                        $btn = '<a class="btn btn-sm btn-danger" >Proses Pengajuan</a>';
+                        $btn = '<a class="btn btn-sm btn-primary" >Proses Pengajuan</a>';
                     }else{
-                        $btn = '<a class="btn btn-sm btn-danger" > - </a>';
+                        $btn = '<a  > - </a>';
                     }
                     return $btn;
                 })
@@ -108,9 +108,10 @@ class ScheduleController extends Controller
     }
 
     public function showUpdateSumbittedSchedule($id){
-        $schedule = Schedule::with('bay_type', 'equipment_out', 'location', 'month')->firstwhere('id', $id);
+        $schedule = Schedule::firstwhere('id', $id);
+        $month= Month::firstwhere('id', $schedule->month_id);
 
-        return view('admin.schedule.submittedULTG')->with('schedules', $schedule);
+        return view('admin.schedule.submittedSchedule')->with('schedules', $schedule)->with('month', $month);
     }
 
     public function updateSubmittedSchedule(Request $request, $id){

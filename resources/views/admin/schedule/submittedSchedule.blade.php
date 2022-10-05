@@ -183,7 +183,7 @@
       success: function(response){
         console.log(response.status)
         if(response.status == 200 || response.status == 201){
-          swal("Success", "Data Anda Telah Disimpan!", "success");
+          swal("Success", "Pengajuan Berhasil diajukan!", "success");
           $("#save-data").removeClass("disabled btn-progress");
           $('#schedue-add')[0].reset();
           $(".select2").val("");

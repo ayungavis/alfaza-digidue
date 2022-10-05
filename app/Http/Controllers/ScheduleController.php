@@ -90,15 +90,20 @@ class ScheduleController extends Controller
                         $btn = '<a class="btn btn-sm btn-success" >Pengajuan Disetujui</a>';
                     } else if($schedule->approve_id == 2) {
                         $btn = '<a class="btn btn-sm btn-danger" >Pengajuan Ditolak</a>';
-                    }else if($schedule->approve_id ==3) {
-                        $btn = '<a class="btn btn-sm btn-primary" >Proses Pengajuan</a>';
+                    }else if($schedule->submitted != 0) {
+                        $btn = '<a >Proses Pengajuan</a>';
                     }else{
                         $btn = '<a  > - </a>';
                     }
                     return $btn;
                 })
                 ->addColumn('action', function ($schedule) {
-                    $button = '<a href="' . route('schedule.show.update.revision', $schedule->id) . '" class="btn btn-sm btn-success">Ajukan Revisi</a>';
+                    if($schedule->submitted != 0){
+                        $button = '<a>-</a>';
+                    }else{
+                        $button = '<a href="' . route('schedule.show.update.revision', $schedule->id) . '" class="btn btn-sm btn-success">Ajukan Revisi</a>';
+                    }
+                    
                     return $button;
                 })
                 ->rawColumns(['approve', 'action'])

@@ -40,7 +40,7 @@
                 url: '{{url()->current()}}'
             },
             columns: [
-            // {data: 'DT_RowIndex', name: 'DT_RowIndex', title: 'No'},
+            {data: 'DT_RowIndex', name: 'DT_RowIndex', orderable: false, searchable: false, title: 'No'},
             {data: 'month.name', name: 'month.name', title: 'Bulan'},
             {data: 'year', name: 'year', title: 'Tahun'},
             {data: 'location.name', name: 'location.name', title: 'Lokasi'},

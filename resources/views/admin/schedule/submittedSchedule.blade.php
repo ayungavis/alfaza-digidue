@@ -9,7 +9,8 @@
         <h4>Revisi Jadwal</h4>
     </div>
     <div class="card-body">
-        <form id="schedule-add">
+        <form id="schedule-submitted">
+            <input type="hidden" name="id" id="id" value="{{$schedule->id}}">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
@@ -58,7 +59,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="seller_id">Tegangan</label>
-                        <select class="form-control select2" id="voltage" name="voltage">
+                        <select class="form-control select2" id="voltage" name="voltage" disabled>
                             <option value="{{ $schedule->voltage }}">{{$schedule->voltage}}</option>
 
 
@@ -82,7 +83,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="seller_id">Sifat</label>
-                        <select class="form-control select2" id="attribute" name="attribute">
+                        <select class="form-control select2" id="attribute" name="attribute" disabled>
                             <option value="{{ $schedule->attribute }}">{{$schedule->attribute}}</option>
                         </select>
                     </div>
@@ -90,7 +91,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="person_responsible">Penanggung Jawab Pelaksanaan</label>
-                        <select class="form-control select2" id="person_responsibles" name="person_responsibles">
+                        <select class="form-control select2" id="person_responsibles" name="person_responsibles" disabled>
                             <option value="{{ $schedule->person_responsibles }}">{{$schedule->person_responsibles}}</option>
 
                         </select>
@@ -99,7 +100,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="operation_plan">Rencana Operasi </label>
-                        <select class="form-control select2" id="operation_plan" name="operation_plan">
+                        <select class="form-control select2" id="operation_plan" name="operation_plan" disabled>
                             <option value="{{ $schedule->operation_plan }}">{{$schedule->operation_plan}}</option>
                         </select>
                     </div>
@@ -156,64 +157,20 @@
 </div>
 
 <script>
-    $(document).ready(function()
-  {
-      $('select[name="location_id"]').on('change', function() {
-        $('select[name="bay_type_id"]').removeAttr("disabled");
-          var locationID = $(this).val();
-          if(locationID) {
-              $.ajax({
-                  url: '/schedule/show/baytype/'+locationID,
-                  type: "GET",
-                  dataType: "json",
-                  success:function(data) {                      
-                      $('select[name="bay_type_id"]').empty();
-                      $('select[name="bay_type_id"]').append('<option value="" disabled selected>Pilih Jenis Bay</option>');
-                      $.each(data, function(key, value) {
-                          $('select[name="bay_type_id"]').append('<option value="'+ key +'">'+ value +'</option>');
-                      });
-                  }
-              });
-          }
-          else{
-              $('select[name="bay_type_id"]').empty();
-          }
-      });
-
-      $('select[name="bay_type_id"]').on('change', function() {
-        $('select[name="equipment_out_id"]').removeAttr("disabled");
-          var baytypeID = $(this).val();
-          if(baytypeID) {
-              $.ajax({
-                  url: '/schedule/show/equipmentout/'+baytypeID,
-                  type: "GET",
-                  dataType: "json",
-                  success:function(data) {                      
-                      $('select[name="equipment_out_id"]').empty();
-                      $('select[name="equipment_out_id"]').append('<option value="" disabled selected>Pilih Peralatan Padam</option>');
-                      $.each(data, function(key, value) {
-                          $('select[name="equipment_out_id"]').append('<option value="'+ key +'">'+ value +'</option>');
-                      });
-                  }
-              });
-          }else{
-              $('select[name="equipment_out_id"]').empty();
-          }
-      });
-  });
+  
   
     $.ajaxSetup({
     headers: {
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
   });
-  $('#schedule-add').submit(function(e) {
+  $('#schedule-submitted').submit(function(e) {
     e.preventDefault();
     $("#save-data").addClass("btn disabled btn-success btn-progress");
-    
+    const id = $("#id").val();
     $.ajax({
       type: 'POST',
-      url:"/schedule/add",
+      url:`/schedule/submitted/${id}`,
       data:new FormData(this),
       dataType:'JSON',
       contentType: false,

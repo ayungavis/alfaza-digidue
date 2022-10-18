@@ -314,4 +314,22 @@ class ScheduleController extends Controller
             ], 500);
         }
     }
+
+    public function destroy($id){
+        try{
+            $schedule = Schedule::firstwhere('id', $id);
+
+            $schedule->delete();
+            
+            return response()->json([
+                'status' => '200',
+                'message' => 'Success Delete Data'
+            ]);
+        }catch(Exception $err){
+            return response()->json([
+                'status' => '500',
+                'message' => $err->getMessage() 
+            ]);
+        }
+    }
 }

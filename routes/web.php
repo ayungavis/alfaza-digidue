@@ -42,5 +42,6 @@ Route::prefix('schedule')->group(function () {
         Route::post('submitted/{id}', 'ScheduleController@updateSubmittedSchedule')->name('submitted.schedule');
         Route::get('show/baytype/{id}', 'ScheduleController@showAddBayType')->name('show.baytype');
         Route::get('show/equipmentout/{id}', 'ScheduleController@showAddEquipmentOut')->name('show.equipmentout');
+        Route::delete('destroy/{id}','ScheduleController@destroy')->name('destroy');
     });
 });

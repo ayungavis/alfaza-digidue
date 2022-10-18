@@ -106,7 +106,7 @@
                 let id = $(this).data("id");
                 $.ajax(
                 {
-                    url: `/sales/delete/${id}`,
+                    url: `/schedule/destroy/${id}`,
                     type: 'delete',
                     data: {
                         id

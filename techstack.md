@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ayungavis/alfaza-digidue is built on the following main stack:
+
 - [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
@@ -33,11 +34,13 @@ ayungavis/alfaza-digidue is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ayungavis/alfaza-digidue is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
@@ -69,14 +72,15 @@ ayungavis/alfaza-digidue is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ayungavis/alfaza-digidue](https://github.com/ayungavis/alfaza-digidue)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|147<br/>Tools used|11/24/23 <br/>Report generated|
+|149<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -375,9 +379,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (113)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (115)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (95)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (97)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -441,6 +445,7 @@ Full tech stack [here](/techstack.md)
 |[gulp-uglify](https://www.npmjs.com/gulp-uglify)|v1.5.3|09/29/22|Alfaza Satria |MIT|N/A|
 |[gulp-util](https://www.npmjs.com/gulp-util)|v3.0.8|09/29/22|Alfaza Satria |MIT|N/A|
 |[gulp-zip](https://www.npmjs.com/gulp-zip)|v3.2.0|09/29/22|Alfaza Satria |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v1.2.1|09/29/22|Alfaza Satria |MIT|N/A|
 |[istanbul](https://www.npmjs.com/istanbul)|v0.4.5|09/29/22|Alfaza Satria |BSD-3-Clause|N/A|
 |[jasmine-core](https://www.npmjs.com/jasmine-core)|v2.5.2|09/29/22|Alfaza Satria |MIT|N/A|
 |[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v2.0.0|09/29/22|Alfaza Satria |MIT|N/A|
@@ -455,6 +460,7 @@ Full tech stack [here](/techstack.md)
 |[karma-safari-launcher](https://www.npmjs.com/karma-safari-launcher)|v1.0.0|09/29/22|Alfaza Satria |MIT|N/A|
 |[karma-sauce-launcher](https://www.npmjs.com/karma-sauce-launcher)|v1.2.0|09/29/22|Alfaza Satria |MIT|N/A|
 |[karma-typescript](https://www.npmjs.com/karma-typescript)|v3.0.13|09/29/22|Alfaza Satria |MIT|N/A|
+|[laravel-mix](https://www.npmjs.com/laravel-mix)|v5.0.4|09/29/22|Alfaza Satria |MIT|N/A|
 |[load-grunt-tasks](https://www.npmjs.com/load-grunt-tasks)|v4.0.0|09/29/22|Alfaza Satria |MIT|N/A|
 |[node-sass](https://www.npmjs.com/node-sass)|v4.5.3|09/29/22|Alfaza Satria |MIT|[CVE-2020-24025](https://github.com/advisories/GHSA-r8f7-9pfq-mjmv) (Moderate)<br/>[](https://github.com/advisories/GHSA-9v62-24cr-58cx) (Moderate)|
 |[phantomjs-prebuilt](https://www.npmjs.com/phantomjs-prebuilt)|v2.1.14|09/29/22|Alfaza Satria |Apache-2.0|N/A|

@@ -1,0 +1,2108 @@
+repo_name: ayungavis/alfaza-digidue
+report_id: fe8549810bc4791e50c9352b17a4f779
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:34:29+00:00'
+requested_by: AlfazaSatria
+provider: github
+branch: master
+detected_tools_count: 149
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/assets/js/page/bootstrap-modal.js
+  detection_source: public/dist/assets/js/page/bootstrap-modal.js
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.8.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 7.30.6
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.9.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.0.1
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/bower.json
+  detection_source: public/dist/bootstrap-tagsinput/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 0.12.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 8.5.27
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  version: 1.9.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/.travis.yml
+  detection_source: public/dist/bootstrap-tagsinput/.travis.yml
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.43.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-daterangepicker/demo.html
+  detection_source: public/dist/bootstrap-daterangepicker/demo.html
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-daterangepicker/bower.json
+  detection_source: public/dist/bootstrap-daterangepicker/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 6.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-preset-es2015
+  description: Babel preset for all es2015 plugins
+  package_url: https://www.npmjs.com/babel-preset-es2015
+  version: 6.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-preset-react
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/babel-preset-react
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15825/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babel-preset-stage-0
+  description: Babel preset for stage 0 plugins
+  package_url: https://www.npmjs.com/babel-preset-stage-0
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: babelify
+  description: Babel browserify transform
+  package_url: https://www.npmjs.com/babelify
+  version: 7.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15993/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: bower
+  description: The browser package manager
+  package_url: https://www.npmjs.com/bower
+  version: 1.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16205/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: Symlink Arbitrary File Overwrite in bower
+    cve_id: CVE-2019-5484
+    cve_url: https://github.com/advisories/GHSA-p6mr-pxg4-68hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.8
+- name: chai-spies
+  description: Spies for the Chai assertion library
+  package_url: https://www.npmjs.com/chai-spies
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16499/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: chromedriver
+  description: ChromeDriver for Selenium
+  package_url: https://www.npmjs.com/chromedriver
+  version: 2.45.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16334/default_c64b9481f9c6af91ec9ae0d9b64505998ac31ee7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: chromedriver Command Injection vulnerability
+    cve_id: CVE-2023-26156
+    cve_url: https://github.com/advisories/GHSA-hm92-vgmw-qfmx
+    detected_date: Nov 10
+    severity: moderate
+    first_patched: 119.0.1
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: create-react-class
+  description: Legacy API for creating React components
+  package_url: https://www.npmjs.com/create-react-class
+  version: 15.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16580/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-chai-friendly
+  description: This plugin makes 'no-unused-expressions' rule friendly towards chai
+    expect statements
+  package_url: https://www.npmjs.com/eslint-plugin-chai-friendly
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17721/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 4.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 5.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-bower-task
+  description: Install Bower packages
+  package_url: https://www.npmjs.com/grunt-bower-task
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18665/default_1695d30317b82fb72729beb3a193adbd20fc0195.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-bump
+  description: Bump package version
+  package_url: https://www.npmjs.com/grunt-bump
+  version: 0.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16360/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-compress
+  description: Compress files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-compress
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16797/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-connect
+  description: Start a connect web server
+  package_url: https://www.npmjs.com/grunt-contrib-connect
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-jasmine
+  description: Run jasmine specs headlessly through Headless Chrome
+  package_url: https://www.npmjs.com/grunt-contrib-jasmine
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16820/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-less
+  description: Compile LESS files to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-less
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16581/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-qunit
+  description: Run QUnit unit tests in a headless Chrome instance
+  package_url: https://www.npmjs.com/grunt-contrib-qunit
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16756/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-requirejs
+  description: Optimize RequireJS projects using r.js
+  package_url: https://www.npmjs.com/grunt-contrib-requirejs
+  version: 0.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17348/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-coveralls
+  description: Grunt task to load coverage results and submit them to Coveralls.io
+  package_url: https://www.npmjs.com/grunt-coveralls
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17437/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-eslint
+  description: Validate files with ESLint
+  package_url: https://www.npmjs.com/grunt-eslint
+  version: 21.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16384/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-exec
+  description: Grunt task for executing shell commands
+  package_url: https://www.npmjs.com/grunt-exec
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16754/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-karma
+  description: Grunt plugin for karma test runner
+  package_url: https://www.npmjs.com/grunt-karma
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: Grunt-karma vulnerable to prototype pollution
+    cve_id: CVE-2022-37602
+    cve_url: https://github.com/advisories/GHSA-hcj4-xf6x-63wj
+    detected_date: Oct 20
+    severity: critical
+    first_patched: 
+- name: grunt-sass
+  description: Compile Sass to CSS using node-sass
+  package_url: https://www.npmjs.com/grunt-sass
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16916/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: grunt-shell
+  description: Run shell commands
+  package_url: https://www.npmjs.com/grunt-shell
+  version: 0.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16396/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-timepicker/package.json
+  detection_source: public/dist/bootstrap-timepicker/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-bump
+  description: Bump npm versions with Gulp
+  package_url: https://www.npmjs.com/gulp-bump
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16313/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-connect
+  description: Gulp plugin to run a webserver
+  package_url: https://www.npmjs.com/gulp-connect
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16446/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-gh-pages
+  description: Gulp plugin to publish contents to Github pages
+  package_url: https://www.npmjs.com/gulp-gh-pages
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16967/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 1.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-mocha
+  description: Run Mocha tests
+  package_url: https://www.npmjs.com/gulp-mocha
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15960/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-mocha-phantomjs
+  description: Run client-side Mocha tests with PhantomJS
+  package_url: https://www.npmjs.com/gulp-mocha-phantomjs
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17896/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-rimraf
+  description: Rimraf plugin for gulp
+  package_url: https://www.npmjs.com/gulp-rimraf
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16968/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-template
+  description: Render/precompile Lodash/Underscore templates
+  package_url: https://www.npmjs.com/gulp-template
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16872/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 1.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: gulp-zip
+  description: ZIP compress files
+  package_url: https://www.npmjs.com/gulp-zip
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16846/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: istanbul
+  description: Yet another JS code coverage tool that computes statement, line, function
+    and branch coverage with module loader hooks to transparently add coverage when
+    running tests
+  package_url: https://www.npmjs.com/istanbul
+  version: 0.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-ie-launcher
+  description: A Karma plugin. Launcher for Internet Explorer
+  package_url: https://www.npmjs.com/karma-ie-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16553/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 0.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-mocha-reporter
+  description: Karma reporter with mocha style logging
+  package_url: https://www.npmjs.com/karma-mocha-reporter
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16127/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-opera-launcher
+  description: A Karma plugin. Launcher for Opera
+  package_url: https://www.npmjs.com/karma-opera-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17467/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/package.json
+  detection_source: public/dist/bootstrap-tagsinput/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-safari-launcher
+  description: A Karma plugin. Launcher for Safari
+  package_url: https://www.npmjs.com/karma-safari-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16426/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-sauce-launcher
+  description: A Karma plugin. Launch any browser on SauceLabs!
+  package_url: https://www.npmjs.com/karma-sauce-launcher
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16460/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: karma-typescript
+  description: Simplifying running unit tests with coverage for Typescript projects
+  package_url: https://www.npmjs.com/karma-typescript
+  version: 3.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16717/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: load-grunt-tasks
+  description: Load multiple grunt tasks using globbing patterns
+  package_url: https://www.npmjs.com/load-grunt-tasks
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/select2/package.json
+  detection_source: public/dist/select2/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: phantomjs-prebuilt
+  description: Headless WebKit with JS API
+  package_url: https://www.npmjs.com/phantomjs-prebuilt
+  version: 2.1.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16054/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/selectric/package.json
+  detection_source: public/dist/selectric/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: require-dir
+  description: Helper to require
+  package_url: https://www.npmjs.com/require-dir
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16293/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup-plugin-commonjs
+  description: Convert CommonJS modules to ES2015
+  package_url: https://www.npmjs.com/rollup-plugin-commonjs
+  version: 9.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup-plugin-eslint
+  description: Verify entry point and all imported files with ESLint
+  package_url: https://www.npmjs.com/rollup-plugin-eslint
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16704/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup-plugin-replace
+  description: "[![]"
+  package_url: https://www.npmjs.com/rollup-plugin-replace
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16077/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup-plugin-terser
+  description: Rollup plugin to minify generated es bundle
+  package_url: https://www.npmjs.com/rollup-plugin-terser
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: rollup-plugin-typescript
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16445/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/summernote/package.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: public/dist/summernote/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: should
+  description: Test framework agnostic BDD-style assertions
+  package_url: https://www.npmjs.com/should
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: underscore
+  description: JavaScript's functional programming helper library
+  package_url: https://www.npmjs.com/underscore
+  version: 1.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in underscore
+    cve_id: CVE-2021-23358
+    cve_url: https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.12.1
+- name: vinyl-source-stream
+  description: Use conventional text streams at the start of your gulp or vinyl pipelines
+  package_url: https://www.npmjs.com/vinyl-source-stream
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: watchify
+  description: Watch mode for browserify builds
+  package_url: https://www.npmjs.com/watchify
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16087/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: webpack-stream
+  description: Run webpack as a stream
+  package_url: https://www.npmjs.com/webpack-stream
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16467/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/cleave.js/package.json
+  detection_source: public/dist/cleave.js/package.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  version: 2.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: fideloper/proxy
+  description: Set trusted proxies for Laravel
+  package_url: https://packagist.org/fideloper/proxy
+  version: 4.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  version: 1.9.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 6.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 7.30.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel/telescope
+  description: An elegant debug assistant for the Laravel framework
+  package_url: https://packagist.org/laravel/telescope
+  version: 3.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 2.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: league/flysystem-sftp
+  description: SFTP filesystem adapter for Flysystem
+  package_url: https://packagist.org/league/flysystem-sftp
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: maatwebsite/excel
+  description: Supercharged Excel exports and imports in Laravel
+  package_url: https://packagist.org/maatwebsite/excel
+  version: 3.1.40
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 8.5.27
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: yajra/laravel-datatables-oracle
+  description: JQuery DataTables API for Laravel 4|5|6|7|8|9|10
+  package_url: https://packagist.org/yajra/laravel-datatables-oracle
+  version: 9.21.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: angular
+  description: Bower package for AngularJS
+  package_url: http://bower.io/angular
+  version: 1.2.21
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/bower.json
+  detection_source: public/dist/bootstrap-tagsinput/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: jasmine
+  description: Official packaging of Jasmine's core files
+  package_url: http://bower.io/jasmine
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/bower.json
+  detection_source: public/dist/bootstrap-tagsinput/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: moment
+  description: Parse
+  package_url: http://bower.io/moment
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-daterangepicker/bower.json
+  detection_source: public/dist/bootstrap-daterangepicker/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
+- name: typeahead.js
+  description: Typeahead.js is a fast and fully-featured autocomplete library
+  package_url: http://bower.io/typeahead.js
+  version: 0.10.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ayungavis/alfaza-digidue/blob/master/public/dist/bootstrap-tagsinput/bower.json
+  detection_source: public/dist/bootstrap-tagsinput/bower.json
+  last_updated_by: Alfaza Satria
+  last_updated_on: 2022-09-29 14:06:58.000000000 Z
